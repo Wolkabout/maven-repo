@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wolkabout",
+    "module": "rest-java-client",
+    "version": "0.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-jackson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-scalars",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.13.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rest-java-client-0.0.3.jar",
+          "url": "rest-java-client-0.0.3.jar",
+          "size": 348513,
+          "sha512": "57b6591db4d2cac41d4dfa193426d6bfb7d71c61b798775a87658edfa08d4e939562c5ad6158305d56441d0b21d7fce95d2ca17f6dfbbe1a96810db9f2342aca",
+          "sha256": "cc3512e9b26af51913c7f76bf52823de7779e88e65e156c17e0da6fea3c988a6",
+          "sha1": "3e0ad3d60706f1db9a341fe333ed644d06e60795",
+          "md5": "bc960029dbc6fa3ca2c854cc47d396b4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-jackson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-scalars",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.13.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rest-java-client-0.0.3.jar",
+          "url": "rest-java-client-0.0.3.jar",
+          "size": 348513,
+          "sha512": "57b6591db4d2cac41d4dfa193426d6bfb7d71c61b798775a87658edfa08d4e939562c5ad6158305d56441d0b21d7fce95d2ca17f6dfbbe1a96810db9f2342aca",
+          "sha256": "cc3512e9b26af51913c7f76bf52823de7779e88e65e156c17e0da6fea3c988a6",
+          "sha1": "3e0ad3d60706f1db9a341fe333ed644d06e60795",
+          "md5": "bc960029dbc6fa3ca2c854cc47d396b4"
+        }
+      ]
+    }
+  ]
+}
